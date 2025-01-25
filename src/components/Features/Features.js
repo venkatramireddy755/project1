@@ -46,7 +46,7 @@ const Features = () => {
             <div className={styles.icon}>{feature.icon}</div>
             <h3>{feature.title}</h3>
             <p>{feature.description}</p>
-            <a href="#" className={styles.learnMore}>Learn More</a> {/* Learn More link */}
+            <a href="#Learn More" className={styles.learnMore}>Learn More</a> {/* Learn More link */}
           </div>
         ))}
       </div>

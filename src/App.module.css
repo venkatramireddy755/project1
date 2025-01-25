@@ -1,0 +1,49 @@
+/* Center the app content */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global section styling for uniformity */
+section {
+  padding: 3rem 1rem;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* Add a subtle shadow to sections for a layered effect */
+section:not(:last-child) {
+  margin-bottom: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Global typography for headings and paragraphs */
+h1, h2, h3 {
+  color: #333;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+p {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Footer styling for a consistent layout */
+footer {
+  margin-top: auto;
+  padding: 1rem;
+  text-align: center;
+  background-color: #333;
+  color: white;
+  font-size: 0.9rem;
+}
